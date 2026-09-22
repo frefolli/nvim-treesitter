@@ -2348,14 +2348,14 @@ return {
       files = {"src/parser.c"}, -- note that some parsers also require src/scanner.c or src/scanner.cc
     },
     filetype = "lart"
-  }
+  },
   rbnf = {
     install_info = {
       url = "https://github.com/frefolli/tree-sitter-rbnf", -- local path or git repo
       files = {"src/parser.c"}, -- note that some parsers also require src/scanner.c or src/scanner.cc
     },
     filetype = "rbnf"
-  }
+  },
   d2 = {
     install_info = {
       url = 'https://github.com/pleshevskiy/tree-sitter-d2',
@@ -2363,7 +2363,7 @@ return {
       files = { 'src/parser.c', 'src/scanner.cc' },
     },
     filetype = 'd2',
-  }
+  },
   c3 = {
     install_info = {
       url = 'https://github.com/c3lang/tree-sitter-c3',
@@ -2371,7 +2371,7 @@ return {
       files = { 'src/parser.c', 'src/scanner.c' },
     },
     filetype = 'c3',
-  }
+  },
   llvm = {
     install_info = {
       url = 'https://github.com/benwilliamgraham/tree-sitter-llvm',
@@ -2379,7 +2379,7 @@ return {
       files = { 'src/parser.c' },
     },
     filetype = 'll',
-  }
+  },
   promela = {
     install_info = {
       url = 'https://github.com/siraben/tree-sitter-promela',
@@ -2387,5 +2387,5 @@ return {
       files = { 'src/parser.c' },
     },
     filetype = 'pml',
-  }
+  },
 }
