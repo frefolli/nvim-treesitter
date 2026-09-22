@@ -2345,6 +2345,7 @@ return {
   lart = {
     install_info = {
       url = "https://github.com/frefolli/tree-sitter-lart", -- local path or git repo
+      revision = 'master',
       files = {"src/parser.c"}, -- note that some parsers also require src/scanner.c or src/scanner.cc
     },
     filetype = "lart"
